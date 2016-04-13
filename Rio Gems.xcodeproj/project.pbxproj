@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		644A5EBC1CBEBBD20022B6DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A5EBB1CBEBBD20022B6DE /* AppDelegate.swift */; };
+		644A5EBE1CBEBBD20022B6DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A5EBD1CBEBBD20022B6DE /* ViewController.swift */; };
+		644A5EC11CBEBBD20022B6DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644A5EBF1CBEBBD20022B6DE /* Main.storyboard */; };
+		644A5EC31CBEBBD20022B6DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 644A5EC21CBEBBD20022B6DE /* Assets.xcassets */; };
+		644A5EC61CBEBBD20022B6DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644A5EC41CBEBBD20022B6DE /* LaunchScreen.storyboard */; };
+		644A5ED11CBEBBD20022B6DE /* Rio_GemsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A5ED01CBEBBD20022B6DE /* Rio_GemsTests.swift */; };
+		644A5EDC1CBEBBD20022B6DE /* Rio_GemsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A5EDB1CBEBBD20022B6DE /* Rio_GemsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		644A5ECD1CBEBBD20022B6DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 644A5EB01CBEBBD20022B6DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 644A5EB71CBEBBD20022B6DE;
+			remoteInfo = "Rio Gems";
+		};
+		644A5ED81CBEBBD20022B6DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 644A5EB01CBEBBD20022B6DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 644A5EB71CBEBBD20022B6DE;
+			remoteInfo = "Rio Gems";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		644A5EB81CBEBBD20022B6DE /* Rio Gems.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rio Gems.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		644A5EBB1CBEBBD20022B6DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		644A5EBD1CBEBBD20022B6DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		644A5EC01CBEBBD20022B6DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		644A5EC21CBEBBD20022B6DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		644A5EC51CBEBBD20022B6DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		644A5EC71CBEBBD20022B6DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		644A5ECC1CBEBBD20022B6DE /* Rio GemsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rio GemsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		644A5ED01CBEBBD20022B6DE /* Rio_GemsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rio_GemsTests.swift; sourceTree = "<group>"; };
+		644A5ED21CBEBBD20022B6DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		644A5ED71CBEBBD20022B6DE /* Rio GemsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rio GemsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		644A5EDB1CBEBBD20022B6DE /* Rio_GemsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rio_GemsUITests.swift; sourceTree = "<group>"; };
+		644A5EDD1CBEBBD20022B6DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		644A5EB51CBEBBD20022B6DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644A5EC91CBEBBD20022B6DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644A5ED41CBEBBD20022B6DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		644A5EAF1CBEBBD20022B6DE = {
+			isa = PBXGroup;
+			children = (
+				644A5EBA1CBEBBD20022B6DE /* Rio Gems */,
+				644A5ECF1CBEBBD20022B6DE /* Rio GemsTests */,
+				644A5EDA1CBEBBD20022B6DE /* Rio GemsUITests */,
+				644A5EB91CBEBBD20022B6DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		644A5EB91CBEBBD20022B6DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				644A5EB81CBEBBD20022B6DE /* Rio Gems.app */,
+				644A5ECC1CBEBBD20022B6DE /* Rio GemsTests.xctest */,
+				644A5ED71CBEBBD20022B6DE /* Rio GemsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		644A5EBA1CBEBBD20022B6DE /* Rio Gems */ = {
+			isa = PBXGroup;
+			children = (
+				644A5EBB1CBEBBD20022B6DE /* AppDelegate.swift */,
+				644A5EBD1CBEBBD20022B6DE /* ViewController.swift */,
+				644A5EBF1CBEBBD20022B6DE /* Main.storyboard */,
+				644A5EC21CBEBBD20022B6DE /* Assets.xcassets */,
+				644A5EC41CBEBBD20022B6DE /* LaunchScreen.storyboard */,
+				644A5EC71CBEBBD20022B6DE /* Info.plist */,
+			);
+			path = "Rio Gems";
+			sourceTree = "<group>";
+		};
+		644A5ECF1CBEBBD20022B6DE /* Rio GemsTests */ = {
+			isa = PBXGroup;
+			children = (
+				644A5ED01CBEBBD20022B6DE /* Rio_GemsTests.swift */,
+				644A5ED21CBEBBD20022B6DE /* Info.plist */,
+			);
+			path = "Rio GemsTests";
+			sourceTree = "<group>";
+		};
+		644A5EDA1CBEBBD20022B6DE /* Rio GemsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				644A5EDB1CBEBBD20022B6DE /* Rio_GemsUITests.swift */,
+				644A5EDD1CBEBBD20022B6DE /* Info.plist */,
+			);
+			path = "Rio GemsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		644A5EB71CBEBBD20022B6DE /* Rio Gems */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 644A5EE01CBEBBD20022B6DE /* Build configuration list for PBXNativeTarget "Rio Gems" */;
+			buildPhases = (
+				644A5EB41CBEBBD20022B6DE /* Sources */,
+				644A5EB51CBEBBD20022B6DE /* Frameworks */,
+				644A5EB61CBEBBD20022B6DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rio Gems";
+			productName = "Rio Gems";
+			productReference = 644A5EB81CBEBBD20022B6DE /* Rio Gems.app */;
+			productType = "com.apple.product-type.application";
+		};
+		644A5ECB1CBEBBD20022B6DE /* Rio GemsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 644A5EE31CBEBBD20022B6DE /* Build configuration list for PBXNativeTarget "Rio GemsTests" */;
+			buildPhases = (
+				644A5EC81CBEBBD20022B6DE /* Sources */,
+				644A5EC91CBEBBD20022B6DE /* Frameworks */,
+				644A5ECA1CBEBBD20022B6DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				644A5ECE1CBEBBD20022B6DE /* PBXTargetDependency */,
+			);
+			name = "Rio GemsTests";
+			productName = "Rio GemsTests";
+			productReference = 644A5ECC1CBEBBD20022B6DE /* Rio GemsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		644A5ED61CBEBBD20022B6DE /* Rio GemsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 644A5EE61CBEBBD20022B6DE /* Build configuration list for PBXNativeTarget "Rio GemsUITests" */;
+			buildPhases = (
+				644A5ED31CBEBBD20022B6DE /* Sources */,
+				644A5ED41CBEBBD20022B6DE /* Frameworks */,
+				644A5ED51CBEBBD20022B6DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				644A5ED91CBEBBD20022B6DE /* PBXTargetDependency */,
+			);
+			name = "Rio GemsUITests";
+			productName = "Rio GemsUITests";
+			productReference = 644A5ED71CBEBBD20022B6DE /* Rio GemsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		644A5EB01CBEBBD20022B6DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Joao Gabriel Carvalho";
+				TargetAttributes = {
+					644A5EB71CBEBBD20022B6DE = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					644A5ECB1CBEBBD20022B6DE = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 644A5EB71CBEBBD20022B6DE;
+					};
+					644A5ED61CBEBBD20022B6DE = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 644A5EB71CBEBBD20022B6DE;
+					};
+				};
+			};
+			buildConfigurationList = 644A5EB31CBEBBD20022B6DE /* Build configuration list for PBXProject "Rio Gems" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 644A5EAF1CBEBBD20022B6DE;
+			productRefGroup = 644A5EB91CBEBBD20022B6DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				644A5EB71CBEBBD20022B6DE /* Rio Gems */,
+				644A5ECB1CBEBBD20022B6DE /* Rio GemsTests */,
+				644A5ED61CBEBBD20022B6DE /* Rio GemsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		644A5EB61CBEBBD20022B6DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644A5EC61CBEBBD20022B6DE /* LaunchScreen.storyboard in Resources */,
+				644A5EC31CBEBBD20022B6DE /* Assets.xcassets in Resources */,
+				644A5EC11CBEBBD20022B6DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644A5ECA1CBEBBD20022B6DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644A5ED51CBEBBD20022B6DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		644A5EB41CBEBBD20022B6DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644A5EBE1CBEBBD20022B6DE /* ViewController.swift in Sources */,
+				644A5EBC1CBEBBD20022B6DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644A5EC81CBEBBD20022B6DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644A5ED11CBEBBD20022B6DE /* Rio_GemsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644A5ED31CBEBBD20022B6DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644A5EDC1CBEBBD20022B6DE /* Rio_GemsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		644A5ECE1CBEBBD20022B6DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 644A5EB71CBEBBD20022B6DE /* Rio Gems */;
+			targetProxy = 644A5ECD1CBEBBD20022B6DE /* PBXContainerItemProxy */;
+		};
+		644A5ED91CBEBBD20022B6DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 644A5EB71CBEBBD20022B6DE /* Rio Gems */;
+			targetProxy = 644A5ED81CBEBBD20022B6DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		644A5EBF1CBEBBD20022B6DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				644A5EC01CBEBBD20022B6DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		644A5EC41CBEBBD20022B6DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				644A5EC51CBEBBD20022B6DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		644A5EDE1CBEBBD20022B6DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		644A5EDF1CBEBBD20022B6DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		644A5EE11CBEBBD20022B6DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Rio Gems/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jgcarv.Rio-Gems";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		644A5EE21CBEBBD20022B6DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Rio Gems/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jgcarv.Rio-Gems";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		644A5EE41CBEBBD20022B6DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Rio GemsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jgcarv.Rio-GemsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rio Gems.app/Rio Gems";
+			};
+			name = Debug;
+		};
+		644A5EE51CBEBBD20022B6DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Rio GemsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jgcarv.Rio-GemsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rio Gems.app/Rio Gems";
+			};
+			name = Release;
+		};
+		644A5EE71CBEBBD20022B6DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Rio GemsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jgcarv.Rio-GemsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Rio Gems";
+			};
+			name = Debug;
+		};
+		644A5EE81CBEBBD20022B6DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Rio GemsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jgcarv.Rio-GemsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Rio Gems";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		644A5EB31CBEBBD20022B6DE /* Build configuration list for PBXProject "Rio Gems" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644A5EDE1CBEBBD20022B6DE /* Debug */,
+				644A5EDF1CBEBBD20022B6DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		644A5EE01CBEBBD20022B6DE /* Build configuration list for PBXNativeTarget "Rio Gems" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644A5EE11CBEBBD20022B6DE /* Debug */,
+				644A5EE21CBEBBD20022B6DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		644A5EE31CBEBBD20022B6DE /* Build configuration list for PBXNativeTarget "Rio GemsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644A5EE41CBEBBD20022B6DE /* Debug */,
+				644A5EE51CBEBBD20022B6DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		644A5EE61CBEBBD20022B6DE /* Build configuration list for PBXNativeTarget "Rio GemsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644A5EE71CBEBBD20022B6DE /* Debug */,
+				644A5EE81CBEBBD20022B6DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 644A5EB01CBEBBD20022B6DE /* Project object */;
+}
